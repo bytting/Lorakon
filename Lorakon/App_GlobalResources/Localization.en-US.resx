@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>Måleresultat (Bq/kg)</value>
+  </data>
+  <data name="ActivityReference" xml:space="preserve">
+    <value>Måleresultat korrigert til referansedato (Bq/kg)</value>
+  </data>
+  <data name="ActivityReference_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for aktivitetreferanse</value>
+  </data>
+  <data name="Activity_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for aktivitet</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="Address_description" xml:space="preserve">
+    <value>Fyll inn adressen til bedriften (Påkrevd)</value>
+  </data>
+  <data name="AnswerByEmail" xml:space="preserve">
+    <value>Ønsker svar per brev</value>
+  </data>
+  <data name="Application_Company" xml:space="preserve">
+    <value>Norwegian Radiation Protection Authority</value>
+  </data>
+  <data name="Application_Title" xml:space="preserve">
+    <value>Lorakon (bm)</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Rapporten er godkjent av Strålevernet</value>
+  </data>
+  <data name="AvgIntegralSample" xml:space="preserve">
+    <value>Snittintegral av tre ringtestmålinger</value>
+  </data>
+  <data name="AvgIntegralSample_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for snittintegral av de tre ringtestmålingene</value>
+  </data>
+  <data name="AvgLivetimeSample" xml:space="preserve">
+    <value>Snitt-telletid for ringtestmålingene</value>
+  </data>
+  <data name="AvgLivetimeSample_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for telletid middelverdi</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Beregnet bakgrunn</value>
+  </data>
+  <data name="Background_Tip" xml:space="preserve">
+    <value>Skriv inn bakgrunnsverdien</value>
+  </data>
+  <data name="BoxWeight" xml:space="preserve">
+    <value>Vekt på boks</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="CAPTCHA_description" xml:space="preserve">
+    <value>Skriv inn teksten i bildet (Hvis du ikke ser hva det står kan du trykke refresh knappen for å få en ny tekst generert)</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Bytt passord</value>
+  </data>
+  <data name="CommentFromNRPA" xml:space="preserve">
+    <value>Kommentar fra Strålevernet</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="ContactForReport" xml:space="preserve">
+    <value>Intern bruker som skal kontaktes i forbindelse med denne rapporten</value>
+  </data>
+  <data name="ContactForReport_Tip" xml:space="preserve">
+    <value>Velg intern bruker for denne ringtestrapporten</value>
+  </data>
+  <data name="Contact_description" xml:space="preserve">
+    <value>Fyll inn navnet til personen som er ansvarlig for ringtestene</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Fortsett</value>
+  </data>
+  <data name="CountingBackground" xml:space="preserve">
+    <value>Telletid bakgrunn</value>
+  </data>
+  <data name="CountingBackground_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for telletid bakgrunn</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="County" xml:space="preserve">
+    <value>Fylke</value>
+  </data>
+  <data name="Course" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="CreateActor" xml:space="preserve">
+    <value>Opprett intern bruker</value>
+  </data>
+  <data name="CreateRingtest" xml:space="preserve">
+    <value>Opprett årets ringtest</value>
+  </data>
+  <data name="CurrentRingtest" xml:space="preserve">
+    <value>Årets ringtest</value>
+  </data>
+  <data name="DateForReport" xml:space="preserve">
+    <value>Dato da målingen ble gjennomført</value>
+  </data>
+  <data name="DateForReport_Tip" xml:space="preserve">
+    <value>Velg dato da målingen ble gjennomført</value>
+  </data>
+  <data name="DeleteActor" xml:space="preserve">
+    <value>Slett intern bruker</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="EMail" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="Email_description" xml:space="preserve">
+    <value>Fyll inn epost-adresse til person som er ansvarlig for ringtestene (Påkrevd)</value>
+  </data>
+  <data name="Evaluated" xml:space="preserve">
+    <value>Rapporten er evaluert av Strålevernet</value>
+  </data>
+  <data name="ExistingActors" xml:space="preserve">
+    <value>Eksisterende interne brukere</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Forklaring</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Faks</value>
+  </data>
+  <data name="Fax_description" xml:space="preserve">
+    <value>Fyll inn faxnummer for person som er ansvarlig for ringtestene</value>
+  </data>
+  <data name="Fullname" xml:space="preserve">
+    <value>Bedriftens navn</value>
+  </data>
+  <data name="Fullname2" xml:space="preserve">
+    <value>Bedriftens navn og sted</value>
+  </data>
+  <data name="Fullname_description" xml:space="preserve">
+    <value>Fyll inn bedriftens navn (Påkrevd)</value>
+  </data>
+  <data name="GeometryFactor" xml:space="preserve">
+    <value>Geometrifaktor</value>
+  </data>
+  <data name="GeometryFactor_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for geometrifaktor</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjelp</value>
+  </data>
+  <data name="IntegralBackground" xml:space="preserve">
+    <value>Integral bakgrunn</value>
+  </data>
+  <data name="IntegralBackground_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for integral bakgrunn</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Logg på</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logg ut</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Interne brukere</value>
+  </data>
+  <data name="MissingInformation" xml:space="preserve">
+    <value>Mangler informasjon</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobiltelefon</value>
+  </data>
+  <data name="Mobile_description" xml:space="preserve">
+    <value>Fyll inn mobilnummer for person som er ansvarlig for ringtestene</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nytt</value>
+  </data>
+  <data name="Old" xml:space="preserve">
+    <value>Gammelt</value>
+  </data>
+  <data name="OurAccount" xml:space="preserve">
+    <value>Bedriftens konto</value>
+  </data>
+  <data name="OurActors" xml:space="preserve">
+    <value>Interne brukere</value>
+  </data>
+  <data name="OurDevices" xml:space="preserve">
+    <value>Instrumenter</value>
+  </data>
+  <data name="OurRingtestResults" xml:space="preserve">
+    <value>Bedriftens ringtestresultater</value>
+  </data>
+  <data name="Ownership" xml:space="preserve">
+    <value>Eierskap</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passord</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Phone_description" xml:space="preserve">
+    <value>Fyll inn telefonnummer for person som er ansvarlig for ringtestene</value>
+  </data>
+  <data name="Postal" xml:space="preserve">
+    <value>Postnummer og sted</value>
+  </data>
+  <data name="Postal_description" xml:space="preserve">
+    <value>Bedriftens postnummer og sted (Påkrevd)</value>
+  </data>
+  <data name="Postbox" xml:space="preserve">
+    <value>Postboks</value>
+  </data>
+  <data name="Postbox_description" xml:space="preserve">
+    <value>Bedriftens postboks</value>
+  </data>
+  <data name="ReferenceDate" xml:space="preserve">
+    <value>Referanse dato</value>
+  </data>
+  <data name="Referencedate_Tip" xml:space="preserve">
+    <value>Velg referanse dato</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Påmelding</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Husk meg</value>
+  </data>
+  <data name="RepeatNew" xml:space="preserve">
+    <value>Gjenta nytt</value>
+  </data>
+  <data name="RequestUser" xml:space="preserve">
+    <value>Bestill bedriftskonto</value>
+  </data>
+  <data name="Ringtest" xml:space="preserve">
+    <value>Ringtest</value>
+  </data>
+  <data name="RingtestIngress" xml:space="preserve">
+    <value>Svar sendes pr. e-post. Hvis dere ønsker svar pr. brev i tillegg, kan dette merkes av i rapporten under.</value>
+  </data>
+  <data name="RingtestStatistics" xml:space="preserve">
+    <value>Ringteststatistikk</value>
+  </data>
+  <data name="SelectDetector" xml:space="preserve">
+    <value>Velg detektor</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Serialnumber" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="Startpage" xml:space="preserve">
+    <value>Startside</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Title_Account" xml:space="preserve">
+    <value>Lorakon - Konto</value>
+  </data>
+  <data name="Title_Actors" xml:space="preserve">
+    <value>Lorakon - Interne brukere</value>
+  </data>
+  <data name="Title_CreateUser" xml:space="preserve">
+    <value>Lorakon - Bestill konto</value>
+  </data>
+  <data name="Title_Default" xml:space="preserve">
+    <value>Lorakon - Startside</value>
+  </data>
+  <data name="Title_Help" xml:space="preserve">
+    <value>Lorakon - Hjelp</value>
+  </data>
+  <data name="Title_Login" xml:space="preserve">
+    <value>Lorakon - Logg på</value>
+  </data>
+  <data name="Title_Logout" xml:space="preserve">
+    <value>Lorakon - Logg ut</value>
+  </data>
+  <data name="Title_Ringtest" xml:space="preserve">
+    <value>Lorakon - Ringtest</value>
+  </data>
+  <data name="Title_Units" xml:space="preserve">
+    <value>Lorakon - Enheter</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Uncertainty_serie10" xml:space="preserve">
+    <value>Beregnet måleusikkerhet i prosent ved 2 sigma (Valgfri)</value>
+  </data>
+  <data name="Uncertainty_Tip" xml:space="preserve">
+    <value>Skriv inn verdi for måleusikkerhet</value>
+  </data>
+  <data name="UpdateActor" xml:space="preserve">
+    <value>Oppdater intern bruker</value>
+  </data>
+  <data name="UpdateReport" xml:space="preserve">
+    <value>Oppdater rapport</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brukernavn</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Verdi</value>
+  </data>
+  <data name="WantEvaluation" xml:space="preserve">
+    <value>Merk av her når du er ferdig og ønsker evaluering</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Nettside</value>
+  </data>
+  <data name="Website_description" xml:space="preserve">
+    <value>Fyll inn bedriftens nettadresse</value>
+  </data>
+  <data name="WrongUsernameOrPassword" xml:space="preserve">
+    <value>Feil brukernavn eller passord</value>
+  </data>
+  <data name="ContactOrg_description" xml:space="preserve">
+    <value>Fyll inn navnet til bedriftens interne bruker</value>
+  </data>
+  <data name="EmailOrg_description" xml:space="preserve">
+    <value>Fyll inn e-post adresse til bedriften (Påkrevd)</value>
+  </data>
+  <data name="FaxOrg_description" xml:space="preserve">
+    <value>Fyll inn faxnummer for bedriften</value>
+  </data>
+  <data name="MobileOrg_description" xml:space="preserve">
+    <value>Fyll inn mobilnummer for bedriften</value>
+  </data>
+  <data name="PhoneOrg_description" xml:space="preserve">
+    <value>Fyll inn telefonnummer for bedriften</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Felt</value>
+  </data>
+  <data name="Actors_header" xml:space="preserve">
+    <value>Bruk denne siden til å opprette bedriftens interne brukere.&lt;br /&gt;Disse brukerne kan tilordnes til kurs, ringtestrapporter og liknende.</value>
+  </data>
+  <data name="Account_header" xml:space="preserve">
+    <value>Denne siden inneholder informasjon om bedriftens konto.&lt;br /&gt;Med unntak av brukernavn kan all informasjon oppdateres.</value>
+  </data>
+  <data name="EmailContact_description" xml:space="preserve">
+    <value>Fyll inn e-post adressen til den interne brukeren (Påkrevd)</value>
+  </data>
+  <data name="MobileContact_description" xml:space="preserve">
+    <value>Fyll inn mobilnummeret til den interne brukeren</value>
+  </data>
+  <data name="NameContact_description" xml:space="preserve">
+    <value>Fyll inn navnet til den interne brukeren (Påkrevd)</value>
+  </data>
+  <data name="PhoneContact_description" xml:space="preserve">
+    <value>Fyll inn telefonnummeret til den interne brukeren</value>
+  </data>
+  <data name="Units_header" xml:space="preserve">
+    <value>Oversikt over instrumenter og utstyr som er registrert på deres bedrift.</value>
+  </data>
+  <data name="Course_header" xml:space="preserve">
+    <value>Liste over Strålevernets kommende kurs.&lt;br /&gt;Velg et kurs og merk av interne brukere som ønsker å delta.</value>
+  </data>
+  <data name="OrgContact" xml:space="preserve">
+    <value>Bedriftens kontaktperson</value>
+  </data>
+  <data name="ErrorPercent" xml:space="preserve">
+    <value>Avvik, Prosent</value>
+  </data>
+  <data name="Participants" xml:space="preserve">
+    <value>Deltagere</value>
+  </data>
+  <data name="StatusCourseUpdated" xml:space="preserve">
+    <value>Bedriftens deltagerliste er nå oppdatert</value>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="ContactCreate" xml:space="preserve">
+    <value>Bedriftens kontaktperson</value>
+  </data>
+  <data name="ContactCreate_description" xml:space="preserve">
+    <value>Skriv inn navnet på bedriftens kontaktperson</value>
+  </data>
+  <data name="CreateUser_header" xml:space="preserve">
+    <value>Felter merket med rød stjerne må fylles ut.</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Ressurser</value>
+  </data>
+  <data name="MCAType" xml:space="preserve">
+    <value>MCA type</value>
+  </data>
+  <data name="Efficiency" xml:space="preserve">
+    <value>Effektivitet</value>
+  </data>
+  <data name="OtherMCATypes" xml:space="preserve">
+    <value>Andre MCA typer</value>
+  </data>
+  <data name="Title_Course" xml:space="preserve">
+    <value>Lorakon - Kurs</value>
+  </data>
+  <data name="Title_Resources" xml:space="preserve">
+    <value>Lorakon - Ressurser</value>
+  </data>
+  <data name="Account_information" xml:space="preserve">
+    <value>Kontoinformasjon</value>
+  </data>
+  <data name="Organizations_internal_users" xml:space="preserve">
+    <value>Bedriftens interne brukere</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="NRPA" xml:space="preserve">
+    <value>Statens Strålevern</value>
+  </data>
+  <data name="Course_header_nocorses" xml:space="preserve">
+    <value>Det er ingen kurs satt opp for øyeblikket</value>
+  </data>
+  <data name="RingtestReportTitle" xml:space="preserve">
+    <value>Ringtestrapport for detektor</value>
+  </data>
+  <data name="DatabaseError" xml:space="preserve">
+    <value>Programmet har oppdaget en feil i databasestrukturen og må avbrytes.</value>
+  </data>
+  <data name="RingtestAccountBoxNotAssigned" xml:space="preserve">
+    <value>Denne kontoen har ikke fått tilordnet en ringtestboks for årets ringtest.&lt;br&gt;Skriv gjerne en melding i tekst feltet nedenfor for å informere NRPA om dette.</value>
+  </data>
+  <data name="RingtestAccountNotRegistered" xml:space="preserve">
+    <value>Denne kontoen er ikke meldt på til årets ringtest.&lt;br&gt;For påmelding til årets ringtest må dere velge en kontaktperson fra listen, og trykk deretter på knappen for påmelding.&lt;br&gt;Hvis listen over interne brukere er tom må disse først opprettes under menyvalget 'Bedriftens konto'</value>
+  </data>
+  <data name="RingtestAlreadyStarted" xml:space="preserve">
+    <value>Årets ringtest har allerede startet.&lt;br&gt;Hvis dere ønsker å delta kan dere sende en melding om dette i tekstfeltet nedenfor.&lt;br&gt;Forespørselen vil bli behandlet så snart som mulig.</value>
+  </data>
+  <data name="RingtestDateNotDetermined" xml:space="preserve">
+    <value>Bedriften er påmeldt til årets ringtest.&lt;br&gt;Dato for årets ringtest er enda ikke bestemt.</value>
+  </data>
+  <data name="RingtestNoDetectors1" xml:space="preserve">
+    <value>Det er ingen detektorer registrert for konto</value>
+  </data>
+  <data name="RingtestNoDetectors2" xml:space="preserve">
+    <value>. Ta kontakt med NRPA (</value>
+  </data>
+  <data name="RingtestNoDetectors3" xml:space="preserve">
+    <value>) hvis dere har noen detektorer som ikke finnes i bedriftens instrument liste</value>
+  </data>
+  <data name="RingtestNotStarted" xml:space="preserve">
+    <value>Bedriften er påmeldt til årets ringtest.&lt;br&gt;Startdato er satt til</value>
+  </data>
+  <data name="Address_reminder" xml:space="preserve">
+    <value>Angi adressen der dere ønsker å få tilsent&lt;br&gt;ringtestbokser, kurs manualer etc.</value>
+  </data>
+  <data name="Uncertainty_insp1000" xml:space="preserve">
+    <value>Måleusikkerhet ved 2 sigma (Bq/kg)</value>
+  </data>
+  <data name="Email_sent" xml:space="preserve">
+    <value>E-post er sendt</value>
+  </data>
+  <data name="Account_for_user" xml:space="preserve">
+    <value>Konto for bruker</value>
+  </data>
+  <data name="Account_request_accepted" xml:space="preserve">
+    <value>Forespørsel om ny konto er registrert</value>
+  </data>
+  <data name="Account_update" xml:space="preserve">
+    <value>Oppdater konto</value>
+  </data>
+  <data name="Account_update_failed" xml:space="preserve">
+    <value>Oppdatering av konto feilet</value>
+  </data>
+  <data name="already_exists" xml:space="preserve">
+    <value>finnes allerede</value>
+  </data>
+  <data name="Cannot_evaluate_missing_fields" xml:space="preserve">
+    <value>Alle felter må være fylt inn før man kan be om evaluering</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfigurasjon</value>
+  </data>
+  <data name="created" xml:space="preserve">
+    <value>opprettet</value>
+  </data>
+  <data name="Email_invalid_address" xml:space="preserve">
+    <value>Epost adressen har ugyldig format</value>
+  </data>
+  <data name="Email_no_server" xml:space="preserve">
+    <value>E-post kan ikke sendes. Applikasjonen har ikke definert epost serveren</value>
+  </data>
+  <data name="failed" xml:space="preserve">
+    <value>feilet</value>
+  </data>
+  <data name="Invalid_date_fields" xml:space="preserve">
+    <value>En eller flere datofelter er ugyldige</value>
+  </data>
+  <data name="Invalid_fields" xml:space="preserve">
+    <value>Ett eller flere felter har ugyldige verdier</value>
+  </data>
+  <data name="is_not_active" xml:space="preserve">
+    <value>er ikke aktiv</value>
+  </data>
+  <data name="Message_sent" xml:space="preserve">
+    <value>Meldingen er sent</value>
+  </data>
+  <data name="Min_letters_in_password_is" xml:space="preserve">
+    <value>Minimum antall tegn i passord er</value>
+  </data>
+  <data name="Missing_fields" xml:space="preserve">
+    <value>Et eller flere påkrevde felter er ikke fylt inn</value>
+  </data>
+  <data name="Need_5_to_display_data" xml:space="preserve">
+    <value>Trenger minst 5 for å vise data</value>
+  </data>
+  <data name="New_password_cant_be_empty" xml:space="preserve">
+    <value>Feltet for nytt passord kan ikke være tomt</value>
+  </data>
+  <data name="NoDetectorSelected" xml:space="preserve">
+    <value>Ingen detektor er valgt</value>
+  </data>
+  <data name="NoReportForDetector" xml:space="preserve">
+    <value>Det finnes ingen ringtestrapport for denne detektoren</value>
+  </data>
+  <data name="not_found" xml:space="preserve">
+    <value>ikke funnet</value>
+  </data>
+  <data name="No_courses_selected" xml:space="preserve">
+    <value>Ingen kurs er valgt</value>
+  </data>
+  <data name="Numbers_from_picture_doesnt_match" xml:space="preserve">
+    <value>Tegnene fra bildet stemmer ikke</value>
+  </data>
+  <data name="Number_of_results_registered_is" xml:space="preserve">
+    <value>Antall resultater levert er</value>
+  </data>
+  <data name="Old_password_cant_be_empty" xml:space="preserve">
+    <value>Feltet for gammelt passord kan ikke være tomt</value>
+  </data>
+  <data name="Passwords_dont_match" xml:space="preserve">
+    <value>Passordene er ikke like</value>
+  </data>
+  <data name="Password_changed" xml:space="preserve">
+    <value>Passord forandret</value>
+  </data>
+  <data name="Password_change_failed" xml:space="preserve">
+    <value>Skifte av passord feilet. Noe er galt med passordene</value>
+  </data>
+  <data name="PressContinueForNewReport" xml:space="preserve">
+    <value>Trykk 'Fortsett' for å opprette en ny rapport</value>
+  </data>
+  <data name="Report_updated" xml:space="preserve">
+    <value>Ringtestrapport oppdatert</value>
+  </data>
+  <data name="Statistics_for_all_members" xml:space="preserve">
+    <value>Ringteststatistikk for alle deltagere</value>
+  </data>
+  <data name="Statistics_for_all_members_no_results" xml:space="preserve">
+    <value>Ringteststatistikk for alle deltagere (Ingen resultater funnet)</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>vellykket</value>
+  </data>
+  <data name="The_name" xml:space="preserve">
+    <value>Navnet</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>oppdatert</value>
+  </data>
+  <data name="Update_failed_report_approved" xml:space="preserve">
+    <value>Kan ikke oppdatere. Rapporten er allerede godkjent</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="You_must_select_contact_for_this_report" xml:space="preserve">
+    <value>Du må velge en intern bruker som skal være ansvarlig for denne rapporten</value>
+  </data>
+  <data name="You_need_min_one_contact_before_register" xml:space="preserve">
+    <value>Du må opprette minst en intern bruker før du kan melde deg på årets ringtest</value>
+  </data>
+  <data name="You_need_to_select_a_contact_before_register" xml:space="preserve">
+    <value>Du må velge en intern bruker før du kan melde deg på årets ringtest</value>
+  </data>
+  <data name="Statistics_select_year" xml:space="preserve">
+    <value>Velg året du vil se statistikk for</value>
+  </data>
+  <data name="Password_validchars" xml:space="preserve">
+    <value>Gyldige tegn i passordet er store og små bokstaver, tall og _</value>
+  </data>
+  <data name="ForgotPassword_Header" xml:space="preserve">
+    <value>Skriv inn bedriftens navn samt CAPTCHA nummeret, og trykk deretter send. Nytt passord vil bli sendt pr. e-post så snart som mulig</value>
+  </data>
+  <data name="Title_ForgotPassword" xml:space="preserve">
+    <value>Lorakon - Glemt passord</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>Har du glemt passordet?</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Reported_result" xml:space="preserve">
+    <value>Rapportert resultat</value>
+  </data>
+  <data name="CalculatedUncertainty" xml:space="preserve">
+    <value>Beregnet usikkerhet</value>
+  </data>
+  <data name="RingtestBoxUncertainty" xml:space="preserve">
+    <value>Ringtestboks usikkerhet</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Legg til kommentar</value>
+  </data>
+  <data name="RingtestFinished" xml:space="preserve">
+    <value>Årets ringtest er avsluttet. Påmelding for neste ringtest starter over nyttår</value>
+  </data>
+  <data name="UploadSpectrums" xml:space="preserve">
+    <value>Spekter filer</value>
+  </data>
+  <data name="AccountID" xml:space="preserve">
+    <value>Konto ID</value>
+  </data>
+  <data name="ApprovedSpec" xml:space="preserve">
+    <value>Godkjent</value>
+  </data>
+  <data name="ApprovedStatus" xml:space="preserve">
+    <value>Godkj. status</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>Opprettet dato</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="MeasurementDate" xml:space="preserve">
+    <value>Måledato</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operatør</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Avvist</value>
+  </data>
+  <data name="Title_UploadSpectrums" xml:space="preserve">
+    <value>Spekter filer</value>
+  </data>
+  <data name="ViewUploadedSpectrums" xml:space="preserve">
+    <value>Oversikt over opplastede spektere</value>
+  </data>
+</root>

@@ -1,0 +1,4 @@
+#1:
+
+<asp:DropDownList ID="ddLanguage" runat="server" Style="float:right; margin-right:10px;" AutoPostBack="true" DataSourceID="languagesXML" DataTextField="text" DataValueField="value" OnSelectedIndexChanged="ddLanguage_OnSelectedIndexChanged" OnDataBound="ddLanguage_OnDataBound" />                                                                                        
+<asp:XmlDataSource ID="languagesXML" runat="server" DataFile="~/App_Data/languages.xml" /> 

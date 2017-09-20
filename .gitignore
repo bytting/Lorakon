@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Custom
+Lorakon/webAppSettings.config
+Lorakon/webConnectionString.config
+LorakonAdmin/webAppSettings.config
+LorakonAdmin/webConnectionString.config
+
+
 # User-specific files
 *.suo
 *.user

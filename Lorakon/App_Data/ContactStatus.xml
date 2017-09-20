@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<contactStatus>  
+    <status text="Aktiv" value="Active" />
+    <status text="Inaktiv" value="Inactive" />
+    <status text="Ukjent" value="Unknown" />    
+</contactStatus>

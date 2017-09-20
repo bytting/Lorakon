@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languages>  
+  <language text="Ikke sjekket" value="Ikke sjekket" />
+  <language text="Ok" value="Ok" />
+  <language text="Defekt" value="Defekt" />
+  <language text="Reperasjon" value="Reperasjon" />
+  <language text="Reserve" value="Reserve" />
+  <language text="Lagret" value="Lagret" />
+  <language text="Erstattet" value="Erstattet" />
+  <language text="Kondemnert" value="Kondemnert" />
+  <language text="Forsvunnet" value="Forsvunnet" />
+</languages>
